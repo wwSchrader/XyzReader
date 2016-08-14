@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Bacon" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/material_deep_orange_500</item>
+        <item name="colorPrimaryDark">@color/material_deep_orange_800</item>
+        <item name="colorAccent">@color/material_deep_purple_A700</item>
+    </style>
+
+    <style name="Theme.Bacon.Detail">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

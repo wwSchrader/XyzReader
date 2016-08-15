@@ -23,6 +23,8 @@
     <color name="theme_accent">#04561A</color>
     <color name="ltgray">#ffe0e0e0</color>
 
+    <color name="transparent">#80000000</color>
+
     <!--Primary colors-->
     <color name="material_deep_orange_500">#FF5722</color>
     <color name="material_deep_orange_200">#FFAB91</color>

@@ -9,32 +9,28 @@
         android:id="@+id/up_container"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
+        android:background="@android:color/transparent"
         android:fitsSystemWindows="true">
 
-        <android.support.design.widget.CollapsingToolbarLayout
-            android:id="@+id/article_collapsing"
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/article_toolbar"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:background="@android:color/transparent"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            app:layout_collapseMode="pin">
 
-            <android.support.v7.widget.Toolbar
-                android:id="@+id/article_toolbar"
-                android:layout_height="?attr/actionBarSize"
-                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-                android:layout_width="match_parent"
-                app:layout_collapseMode="pin">
+            <android.support.v7.widget.AppCompatImageButton
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:id="@+id/action_up"
+                android:layout_width="56dp"
+                android:layout_height="?actionBarSize"
+                android:background="?selectableItemBackgroundBorderless"
+                android:contentDescription="@string/up"
+                android:src="@drawable/ic_arrow_back" />
+        </android.support.v7.widget.Toolbar>
 
-                <android.support.v7.widget.AppCompatImageButton
-                    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-                    android:id="@+id/action_up"
-                    android:layout_width="56dp"
-                    android:layout_height="?actionBarSize"
-                    android:background="?selectableItemBackgroundBorderless"
-                    android:contentDescription="@string/up"
-                    android:src="@drawable/ic_arrow_back" />
-            </android.support.v7.widget.Toolbar>
 
-        </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 
     <android.support.v4.view.ViewPager

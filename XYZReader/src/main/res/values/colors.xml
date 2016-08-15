@@ -32,4 +32,9 @@
 
     <!--Accent colors-->
     <color name="material_deep_purple_A700">#6200EA</color>
+
+    <color name="white_background">#fff</color>
+    <color name="transparent_white_background">#8fff</color>
+    <color name="black_background">#333</color>
+    <color name="subtitle_text">#6000</color>
 </resources>

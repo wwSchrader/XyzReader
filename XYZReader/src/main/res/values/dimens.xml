@@ -8,4 +8,19 @@
     <dimen name="fab_press_translation_z">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
 
+    <dimen name="cardview_elevation">2dp</dimen>
+    <dimen name="cardview_margin">4dp</dimen>
+    <dimen name="article_subtitle_padding">16dp</dimen>
+    <dimen name="article_title_padding">16dp</dimen>
+    <dimen name="article_title_padding_bottom">4dp</dimen>
+    <dimen name="recyclerview_padding_bottom">28dp</dimen>
+    <dimen name="share_fab_width">56dp</dimen>
+    <dimen name="share_fab_layout_height">56dp</dimen>
+    <dimen name="action_up_layout_width">56dp</dimen>
+    <dimen name="photo_container_view_layout_height">112dp</dimen>
+    <dimen name="detail_up_container_elevation">4dp</dimen>
+    <dimen name="article_toolbar_container_elevation">4dp</dimen>
+    <dimen name="article_maxwidthlinearlayout_elevation">2dp</dimen>
+    <item name="article_title_line_spacing_multiplier" format="float" type="fraction">0.9</item>
+
 </resources>
